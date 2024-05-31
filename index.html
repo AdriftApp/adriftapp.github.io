@@ -17,7 +17,7 @@ description: Adrift - WebApp
 <br>
 <hr>
 <br>
-<a class="pixel-button">>Launch Game<</a>
+<a class="pixel-button" onclick="openModal()">>Launch Game<</a>
 <br>
 <hr>
 <h3>Latest Updates</h3>
@@ -25,3 +25,11 @@ description: Adrift - WebApp
 	<li><a href="#">Update 1: Game Alpha Released!</a></li>
 	<li><a href="#">Update 2: Back on track, going back into development.</a></li>
 </ul>
+
+<!-- Modal window -->
+<div id="version-modal" class="modal">
+  <div class="modal-content">
+    <h2>Select a version to launch:</h2>
+    <ul id="version-list"></ul>
+  </div>
+</div>
