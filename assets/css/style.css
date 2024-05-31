@@ -58,3 +58,41 @@ h3 {
   font-size: 32;
   color: #00ff44;
 }
+
+.pixel-button {
+  /* Retro and pixel style */
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #0078d7;
+  color: #fff;
+  cursor: pointer;
+  
+  /* Center the button */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pixel-button:hover {
+  /* Cool hover effects */
+  animation: pulse 1s infinite;
+  box-shadow: 0 0 10px #0078d7;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
