@@ -102,36 +102,53 @@ h3 {
 }
 
 
-#modal-container {
+.trigger-modal {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; /* Hidden by default */
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
-  z-index: 9999;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
-}
-
-#modal-container.active {
-  display: block;
-}
-
-#modal-overlay {
-  position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-#modal-content {
-  position: relative;
-  margin: auto;
+.modal-content {
+  background-color: #000000;
+  margin: 5% auto;
   padding: 20px;
-  background-color: #fff;
   border: 1px solid #888;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-content li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal-content li a {
+  color: #6ed486;
+  text-decoration: none;
+}
+
+.modal-content li a:hover {
+    color: #82ff9f;
 }
