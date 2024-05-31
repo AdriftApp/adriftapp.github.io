@@ -31,27 +31,14 @@
 
 // …
 
+document.getElementById('launch-game-button').addEventListener('click', function() {
+  document.getElementById('modal-container').classList.add('active');
+});
 
-let versions = ['Alhpa - 1.0', 'Alpha - 2.0', 'Beta - 1.0', 'Stable - 1.0', 'Stable - 1.1']; // Add your versions here
+document.getElementById('close-modal-button').addEventListener('click', function() {
+  document.getElementById('modal-container').classList.remove('active');
+});
 
-function openModal() {
-  document.getElementById("version-modal").style.display = "block";
-  const versionList = document.getElementById("version-list");
-  versionList.innerHTML = ''; // Clear the list
-
-  versions.forEach((version) => {
-    const button = document.createElement("button");
-    button.onclick = () => launchVersion(version);
-    button.textContent = version;
-    versionList.appendChild(button);
-  });
-}
-
-function launchVersion(version) {
-  // TO DO: Launch the selected version
-  console.log(`Launching version ${version}...`);
-  document.getElementById("version-modal").style.display = "none";
-}
 registerServiceWorker();
     </script>
     
