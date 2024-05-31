@@ -60,29 +60,30 @@ h3 {
 }
 
 .pixel-button {
-  /* Retro and pixel style */
-  font-family: 'Press Start 2P', sans-serif;
+  /* Retro and pixel style with neon green theme */
+  font-family: 'Pixel', sans-serif;
   font-size: 16px;
   text-align: center;
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid #333;
+  border: 2px solid #33CC33; /* Neon green border */
   border-radius: 5px;
-  background-color: #0078d7;
-  color: #fff;
+  background-color: #33FF33; /* Neon green background */
+  color: #000; /* Black text */
   cursor: pointer;
   
-  /* Center the button */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  /* Center the button using flexbox */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pixel-button:hover {
-  /* Cool hover effects */
+  /* Cool hover effects with neon green glow */
   animation: pulse 1s infinite;
-  box-shadow: 0 0 10px #0078d7;
+  box-shadow: 0 0 10px #33FF33; /* Neon green glow */
+  transform: none; /* Prevent jumping */
 }
 
 @keyframes pulse {
@@ -90,7 +91,7 @@ h3 {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   100% {
     transform: scale(1);
