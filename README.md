@@ -1,2 +1,1 @@
-# adriftapp.github.io
-~Adrift~
+# Adrift - {Alpha}
