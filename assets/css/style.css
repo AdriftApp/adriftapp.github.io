@@ -17,6 +17,24 @@ a {
   color: #91ffaf;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, #33CC33, #00FF00);
+  background-size: 100% 2px;
+  background-position: 0% 50%;
+  animation: neon-glow 2s infinite;
+}
+
+@keyframes neon-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 h1 {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
