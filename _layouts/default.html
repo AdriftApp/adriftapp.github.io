@@ -31,12 +31,21 @@
 
 // …
 
-document.getElementById('launch-game-button').addEventListener('click', function() {
-  document.getElementById('modal-container').classList.add('active');
+// Get the modal and trigger elements
+const modal = document.getElementById('version-modal');
+const trigger = document.querySelector('.trigger-modal');
+
+// Add an event listener to the trigger link
+trigger.addEventListener('click', function() {
+  // Show the modal
+  modal.style.display = 'block';
 });
 
-document.getElementById('close-modal-button').addEventListener('click', function() {
-  document.getElementById('modal-container').classList.remove('active');
+// Add an event listener to the modal to close it when clicked outside
+modal.addEventListener('click', function(event) {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
 });
 
 registerServiceWorker();
