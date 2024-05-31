@@ -1,0 +1,27 @@
+{
+  "background_color": "#000000",
+  "description": "Adrift - FNaF style horror",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Adrift",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Adrift",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "https://adriftapp.github.io/assets/AdriftIcon.png",
+      "type": "image/png",
+      "sizes": "698x698"
+    }
+  ],
+  "id": "adriftapp",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "minimal-ui",
+    "window-controls-overlay",
+    "browser"
+  ]
+}
