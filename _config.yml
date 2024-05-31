@@ -1,2 +1,8 @@
-title: Adrift - FNaF Style Horror
+title: Adrift - WebApp
 description: Adrift by 1D10T1C STUD10S
+baseurl: /
+url: adriftapp.github.io
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
