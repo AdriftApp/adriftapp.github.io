@@ -1,0 +1,17 @@
+body {
+  background-color: #1c1c1c;
+}
+
+p {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #00ff44;
+}
+
+a {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #91ffaf;
+}
