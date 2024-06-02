@@ -184,6 +184,7 @@ iframe {
 }
 
 .centredtext {
+  text-align: centre;
   margin: 0 auto;
   display: flex;
   justify-content: center;
