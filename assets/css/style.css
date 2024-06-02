@@ -177,5 +177,5 @@ iframe {
 }
 
 .centredtext {
-  text-align: centre;
+  text-align: centre !important;
 }
