@@ -7,8 +7,12 @@ title: Tasks
 
 Tasks are what you need to complete an hour, usually ```3 + hour value``` will be enough to get you past the current hour.
 
+---
+
 > [!IMPORTANT]  
 > Note that you must see a "Task Completed, Please wait for next task" to appear to be considered 1 task done, not at 100%
+
+---
 
 You can do tasks via the task manager at the top right of your screen.
 
