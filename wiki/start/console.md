@@ -3,7 +3,9 @@ layout: wiki
 title: Console
 ---
 
+<br>
 # Console
+<br>
 
 ---
 
@@ -11,6 +13,9 @@ title: Console
 > This is one of the most important tools you'll need!
 
 ---
+
+## Details
+<br>
 
 At the bottom left of your screen, is the Guild Tech signature, the Console.
 
