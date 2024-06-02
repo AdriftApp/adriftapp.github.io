@@ -19,15 +19,19 @@ Available on iOS, Android, Windows, or any browser that supports PWA installatio
 
 After that view our browser how-to below.
 
+<br>
+
 ## HTML file
 
 Not supported at the moment, the current file size is 80MB. 
 
 We are working on this feature.
 
+<br>
+
 ## Browser
 
-1. Launch Game
-2. Select version
-3. You're good to go!
+1 Launch Game
+2 Select version
+3 You're good to go!
 
