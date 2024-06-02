@@ -4,7 +4,7 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: auto;
-  cursor: url('https://adriftapp.github.io/assets/adriftmouse.png') 5 5, pointer;
+  cursor: url('https://adriftapp.github.io/assets/adriftmouse.png') 5 5, auto;
 }
 
 p {
