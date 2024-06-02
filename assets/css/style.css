@@ -178,4 +178,5 @@ iframe {
 
 .centredtext {
   text-align: centre !important;
+  margin: 0 auto;
 }
