@@ -12,5 +12,22 @@ Here is a guide on how.
 
 ## Webapp
 
-You can install as a PWA (progressive web app)
+You can install as a PWA (progressive web app)\
 [Modzilla Web Docs guide](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing)
+
+Available on iOS, Android, Windows, or any browser that supports PWA installation!
+
+After that view our browser how-to below.
+
+## HTML file
+
+Not supported at the moment, the current file size is 80MB. 
+
+We are working on this feature.
+
+## Browser
+
+1. Launch Game
+2. Select version
+3. You're good to go!
+
