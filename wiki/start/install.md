@@ -31,7 +31,7 @@ We are working on this feature.
 
 ## Browser
 
-1 Launch Game
-2 Select version
+1 Launch Game\
+2 Select version\
 3 You're good to go!
 
