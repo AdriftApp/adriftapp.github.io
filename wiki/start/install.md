@@ -13,4 +13,4 @@ Here is a guide on how.
 ## Webapp
 
 You can install as a PWA (progressive web app)
-MDM guide
+[Modzilla Web Docs guide](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing)
