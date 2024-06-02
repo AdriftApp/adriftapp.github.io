@@ -23,6 +23,13 @@ a {
   width: 100%;
 }
 
+pre code {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 img {
   max-width: 100%;
   height: auto;
