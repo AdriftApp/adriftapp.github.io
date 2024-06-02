@@ -166,3 +166,7 @@ iframe {
 .modal-content li a:hover {
     color: #82ff9f;
 }
+
+.centredtext {
+  text-align: centre;
+}
