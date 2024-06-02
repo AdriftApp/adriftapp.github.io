@@ -23,6 +23,13 @@ a {
   width: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 hr {
   border: none;
   height: 2px;
