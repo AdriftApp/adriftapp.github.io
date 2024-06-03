@@ -187,4 +187,5 @@ iframe {
   dislay: block;
   text-align: center !important;
   margin: 0 auto;
+  width: 100%;
 }
